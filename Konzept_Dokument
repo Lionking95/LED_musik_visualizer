@@ -1,0 +1,58 @@
+Konzept-Dokument: LED Musik Visualizer
+LED_musik_visualizer
+
+LED Musik Visualizer
+
+Team
+
+Leutrim Gashi/Leon Tusha
+
+Beschreibung des Projekts
+
+Unser Projekt ist ein Musik-Visualizer, der Audiosignale analysiert und in Echtzeit auf einem LED-Streifen visualisiert.
+Dabei werden Frequenzen (Bass, Mitten, Höhen) erkannt und als Farben und Bewegungen dargestellt.
+
+Motivation
+
+Wir wollten ein Projekt umsetzen, das:
+- praxisnah ist
+- Hardware (LEDs) mit Software verbindet
+- moderne Signalverarbeitung nutzt
+- Technische Umsetzung
+
+Das System besteht aus:
+- AudioProcessor → verarbeitet Audio (FFT, RMS)
+- Visualizer → berechnet Farben und Effekte
+- LED-Controller → steuert den LED-Streifen
+- GUI → zeigt Daten visuell an
+
+Architektur
+
+Die Anwendung ist modular aufgebaut:
+- audio_input.py → Audio-Verarbeitung
+- main.py → LED-Visualisierung
+- config.py → zentrale Einstellungen
+- led_test.py → Hardware-Test
+
+Minimalziel
+- GUI mit Live-Anzeige
+Erweiterte Ziele
+- verschiedene Visualizer-Modi
+- automatische Audioquellen-Erkennung
+
+
+Teamarbeit
+
+Leutrim:
+
+
+Leon:
+
+
+Startanleitung
+
+- Repository klonen
+- requirements installieren:
+- pip install -r requirements.txt
+- starten:
+- ./start.sh
