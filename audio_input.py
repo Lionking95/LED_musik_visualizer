@@ -1,5 +1,5 @@
 # audio_input.py
-#hallo
+
 import subprocess
 import threading
 import time
