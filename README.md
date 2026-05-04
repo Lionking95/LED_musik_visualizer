@@ -12,7 +12,7 @@ Installation
   
 Start
 - ./start.sh
-  
+
 Voraussetzungen
 - Raspberry Pi
 - LED-Streifen 
@@ -23,3 +23,8 @@ Projektstruktur
 - main.py → Visualisierung
 - config.py → Einstellungen
 - led_test.py → LED-Test
+
+
+Funktionsweise
+Das Programm liest kontinuierlich Audiodaten ein und berechnet daraus Lautstärke (RMS) und Frequenzspektrum (FFT).
+Diese Daten werden anschliessend verwendet um Farben, Helligkeit und Bewegungen der LEDs zu steuern.
